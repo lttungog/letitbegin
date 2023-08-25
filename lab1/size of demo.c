@@ -15,7 +15,7 @@ int main() {
     printf("Ket qua tinh chu vi va dien tich hinh tron: \n");
     printf("=========================================== \n");
     printf(" Ban kinh hinh tron:     r = %8.1f met \n", r);
-    printf(" Chu vi hinh tron:       c = %8.2 met \n", c);
+    printf(" Chu vi hinh tron:       c = %8.2f met \n", c);
     printf(" Dien tich hinh tron:    s = %8.2f met vuong \n", s);
     printf("=========================================== \n\n");
 
