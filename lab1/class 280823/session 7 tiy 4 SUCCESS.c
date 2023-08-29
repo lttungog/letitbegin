@@ -12,26 +12,26 @@ int main() {
     scanf("%d", &slr);
 
     printf("\nPlease enter your grade: ");
-    scanf("%c", &gr);
+    scanf(" %c", &gr);
 
-    /*if (gr < 'A' || gr > 'F') {
+    if (gr < 'A' || gr > 'F') {
         printf("\nGrade entered is invalid");
     }
     else
         switch(gr) {
         case 'A':
             allowance = slr + 300;
-            printf("Your total salary is %d", allowance);
+            printf("\nYour total salary is %d", allowance);
             break;
         case 'B':
             allowance = slr + 250;
-            printf("Your total salary is %d", allowance);
+            printf("\nYour total salary is %d", allowance);
             break;
         default:
             allowance = slr + 100;
-            printf("Your total salary is %d", allowance);
+            printf("\nYour total salary is %d", allowance);
             break;
-    }*/
+    }
     return 0;
 
 }
