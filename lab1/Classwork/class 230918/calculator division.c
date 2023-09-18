@@ -28,9 +28,11 @@ int main() {
 
 float div(float a, float b) {
 
+    float c;
     printf("\n\nExecute the calculations: ");
     printf("\na = %0.2f", a);
     printf("\nb = %0.2f", b);
-    return a / b;
+    c = a / b;
+    return c; // return can only be used once, if used more than once, after executing the first 'return' the program will exit
 
 }
