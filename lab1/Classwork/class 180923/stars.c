@@ -3,7 +3,20 @@
 //
 #include <stdio.h>
 
-void drawRec() {
+void drawSqr();
+void drawRec();
+
+int main() {
+
+    printf("Draw a rectangle: \n");
+    drawRec();
+    printf("Draw a square: \n");
+    drawSqr();
+
+    return 0;
+}
+
+void drawSqr() {
 
     printf("************");
     printf("\n*          *");
@@ -14,11 +27,14 @@ void drawRec() {
 
 }
 
-int main() {
 
-    drawRec();
-    drawRec();
+void drawRec() {
 
-    return 0;
+    printf("*****************");
+    printf("\n*               *");
+    printf("\n*               *");
+    printf("\n*               *");
+    printf("\n*****************");
+    printf("\n");
 
 }
