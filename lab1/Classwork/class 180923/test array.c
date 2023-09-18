@@ -34,6 +34,7 @@ void main() {
     printf("\nThe minimum number of the array is: %d", min);
     printf("\nThe sum of the numbers in the array is: %d", sum);
     printf("\nThe average of the array is: %0.2f", avg);
+    printf("\n");
 
     for (i = 4; i >= 0; i--) {
         printf("\nThe array in reversed order is: %d", arr[i]);
