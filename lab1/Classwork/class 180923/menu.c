@@ -21,20 +21,20 @@ int main() {
 
 void menuCoffee() {
 
-    printf("1. Nau Da");
-    printf("\n2. Den Da");
-    printf("\n3. Bac Siu");
-    printf("\n4. Latte");
-    printf("\n5. Cappuccino");
+    printf("1. Nau Da        35000vnd");
+    printf("\n2. Den Da        35000vnd");
+    printf("\n3. Bac Siu       40000vnd");
+    printf("\n4. Latte         45000vnd");
+    printf("\n5. Cappuccino    50000vnd");
 
 }
 
 void menuFruits() {
 
-    printf("1. Ep Cam");
-    printf("\n2. Ep Chanh");
-    printf("\n3. Ep Chanh Leo");
-    printf("\n4. Ep Dua Hau");
-    printf("\n5. Ep Oi");
+    printf("1. Ep Cam         50000vnd");
+    printf("\n2. Ep Chanh       40000vnd");
+    printf("\n3. Ep Chanh Leo   45000vnd");
+    printf("\n4. Ep Dua Hau     35000vnd");
+    printf("\n5. Ep Oi          45000vnd");
 
 }
