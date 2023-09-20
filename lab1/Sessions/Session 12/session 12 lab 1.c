@@ -23,7 +23,7 @@ int main() {
         desnum[k] = num[k];
     }
 
-    for (i = 0; i < n-1; i ++) {
+    for (i = 0; i < n-1; i++) {
         for (j = i+1; j < n; j++) {
             if (desnum[i] < desnum[j]) {
                 temp = desnum[i];

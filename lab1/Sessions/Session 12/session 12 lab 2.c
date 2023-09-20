@@ -23,7 +23,7 @@ int main() {
 
     for (i = 0; i < row; i++) {
         for (j = 0; j < col; j++) {
-            printf("\nA[%d][%d] = %d, B[%d][%d] = %d, C[%d][%d] = %d\n", i, j, A[i][j],i, j, B[i][j], i, j, C[i][j]);
+            printf("\nA[%d][%d] = %d, B[%d][%d] = %d, C[%d][%d] = %d\n", i, j, A[i][j], i, j, B[i][j], i, j, C[i][j]);
         }
     }
 
