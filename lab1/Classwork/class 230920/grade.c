@@ -12,7 +12,12 @@ int main() {
     scanf("%d", &marks);
 
     char result1 = grade(marks);
-    printf("\nYour grade is: %c", result1);
+    // printf("\nYour grade is: %c", result1);
+
+    if (result1 == 'A' || result1 == 'B' || result1 == 'C' || result1 == 'D')
+        printf("\nYour grade is: %c", result1);
+    else
+        printf("You have failed.");
 
 }
 
