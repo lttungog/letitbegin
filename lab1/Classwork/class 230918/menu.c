@@ -26,6 +26,7 @@ void menuCoffee() {
     printf("\n3. Bac Siu       40000vnd");
     printf("\n4. Latte         45000vnd");
     printf("\n5. Cappuccino    50000vnd");
+    printf("\n6. Quit          ")
 
 }
 
