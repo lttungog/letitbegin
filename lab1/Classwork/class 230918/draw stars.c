@@ -8,13 +8,13 @@ void draw_rec (int s);
 int main() {
 
     int size;
-    printf("Canh co 3 ngoi sao.\n");
+    printf("\nCanh co 3 ngoi sao.\n");
     draw_rec(3);
 
-    printf("Mot doan code khac....\n");
+    printf("\nMot doan code khac....\n");
     draw_rec(5);
 
-    printf("Ban muon co bao nhieu ngoi sao o canh? \n");
+    printf("\nBan muon co bao nhieu ngoi sao o canh? \n");
     scanf("%d", &size);
     draw_rec(size);
 
@@ -24,13 +24,13 @@ int main() {
 
 void draw_rec(int s) {
 
-    printf("Ve hinh vuong moi nao ;) : \n");
+    printf("\nVe hinh vuong moi nao ;) : \n");
     for (int i = 0; i < s; ++i) {
         printf("\n");
         for (int j = 0; j < s; ++j)
             printf("*");
     }
 
-    printf("\n DONE! \n");
+    printf("\nDONE! \n");
 
 }
