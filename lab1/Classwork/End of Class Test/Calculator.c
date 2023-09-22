@@ -13,8 +13,10 @@ int main() {
 
     int num1, num2;
 
-    printf("\nPlease enter 2 numbers: ");
-    scanf("%d %d", &num1, &num2);
+    printf("\nPlease enter the 1st Number: ");
+    scanf("%d", &num1);
+    printf("\nPlease enter the 2nd Number: ");
+    scanf("%d", &num2);
 
     int result1 = sum (num1, num2);
     int result2 = sub (num1, num2);
